@@ -8,7 +8,7 @@ function Home() {
       <div className="background-profile row">
         <img
           className="profile col"
-          src="../public/images/profile.png"
+          src="/images/profile.png"
           alt=""
         />
         <div className="description col text-light fw-bold">
@@ -40,7 +40,7 @@ function Home() {
           <a href="http://" class="btn btn-info">
             <img
               style={{ width: "17px" }}
-              src="../public/images/download.png"
+              src="/images/download.png"
               alt=""
               srcset=""
             />
