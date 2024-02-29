@@ -14,7 +14,7 @@ const getDataCertified = () => {
         // },
         {
             id: 4,
-            imageUrl: '../public/images/DQLAB-DataScience.jpg', 
+            imageUrl: '/images/DQLAB-DataScience.jpg', 
         },
         {
             id: 5,
