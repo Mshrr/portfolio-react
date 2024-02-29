@@ -25,7 +25,7 @@ function Certified() {
 
     return (
         <div className="container d-flex justify-content-center align-items-center">
-            <div className="certified position-relative">
+            <div className="certified position-relative bg-secondary">
                 <Slide easing="ease" nextArrow={nextArrow} prevArrow={prevArrow} autoplay={true} duration={2000}>
                     {
                         certified.map((certificate) => (
@@ -35,6 +35,7 @@ function Certified() {
                         )) 
                     }
                 </Slide>
+                <a href="http://"></a>
             </div>
         </div>
     );
