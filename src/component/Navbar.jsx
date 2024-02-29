@@ -13,7 +13,7 @@ function Navbar() {
             </div>
             <div className={`navbar col ${isMobileNavOpen ? 'open' : ''}`}>
                 <div className="profile">
-                    <img className="nav-image" src="../public/images/profile-img1.png" alt="" />
+                    <img className="nav-image" src="/images/profile-img1.png" alt="" />
                     <h3 className="name-nav"><b>Maulana Manshur</b></h3>
                 </div>
                 <ul>
