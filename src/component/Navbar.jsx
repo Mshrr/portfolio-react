@@ -14,15 +14,16 @@ function Navbar() {
             <div className={`navbar col ${isMobileNavOpen ? 'open' : ''}`}>
                 <div className="profile">
                     <img className="nav-image" src="../public/images/profile-img1.png" alt="" />
-                    <h2>Maulana Manshur</h2>
+                    <h3 className="name-nav"><b>Maulana Manshur</b></h3>
                 </div>
                 <ul>
                     <li>
                         <a href="#section1">Home</a>
                         <a href="#section2">Journey</a>
-                        <a href="#section3">Certified</a>
-                        <a href="#section4">Project</a>
-                        <a href="#section5">Contact</a>
+                        <a href="#section3">Skills</a>
+                        <a href="#section4">Certified</a>
+                        <a href="#section5">Project</a>
+                        <a href="#section6">Contact</a>
                     </li>
                 </ul>
             </div>

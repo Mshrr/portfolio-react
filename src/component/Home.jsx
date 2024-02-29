@@ -1,12 +1,13 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
+import Social from "./Social";
 
 function Home() {
   return (
     <main className="container mt-5">
       <div className="background-profile row">
         <img
-          className="profile col w-75"
+          className="profile col"
           src="../public/images/profile.png"
           alt=""
         />
@@ -31,6 +32,7 @@ function Home() {
             I Am a Student Of Informatics Engineering Study Program From STMIK
             IKMI CIREBON
           </p>
+          <Social />
           <br />
           <hr />
           <p>“Thanks God, I’m Informatic Engineering. I’m Very Proud.”</p>
